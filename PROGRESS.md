@@ -21,9 +21,9 @@ This file is the single source of truth for current project status. Updated afte
 
 | # | Step | Description | Status |
 |---|---|---|---|
-| 1 | Linux VM Setup | Provision Ubuntu Server VM on Unraid | Started |
+| 1 | Linux VM Setup | Provision Ubuntu Server VM on Unraid | Complete |
 | 2 | Docker & Compose | Install Docker, deploy first Compose service | Not Started |
-| 3 | Git Repo Structure | Folder layout, README, .gitignore confirmed | Not Started |
+| 3 | Git Repo Structure | Folder layout, README, .gitignore confirmed | Complete |
 | 4 | Terraform Base | VM infrastructure defined in Terraform | Not Started |
 | 5 | Remote State | Cloud backend configured for Terraform state | Not Started |
 | 6 | GitHub Actions | CI pipeline triggered on push to main | Not Started |
