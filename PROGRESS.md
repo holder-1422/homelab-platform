@@ -8,7 +8,7 @@ This file is the single source of truth for current project status. Updated afte
 
 | Phase | Name | Status |
 |---|---|---|
-| Phase 1 | Foundation | Not Started |
+| Phase 1 | Foundation | Started |
 | Phase 2 | Infrastructure as Code | Not Started |
 | Phase 3 | CI/CD Pipeline | Not Started |
 | Phase 4 | Kubernetes | Not Started |
@@ -21,7 +21,7 @@ This file is the single source of truth for current project status. Updated afte
 
 | # | Step | Description | Status |
 |---|---|---|---|
-| 1 | Linux VM Setup | Provision Ubuntu Server VM on Unraid | Not Started |
+| 1 | Linux VM Setup | Provision Ubuntu Server VM on Unraid | Started |
 | 2 | Docker & Compose | Install Docker, deploy first Compose service | Not Started |
 | 3 | Git Repo Structure | Folder layout, README, .gitignore confirmed | Not Started |
 | 4 | Terraform Base | VM infrastructure defined in Terraform | Not Started |
