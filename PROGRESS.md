@@ -9,7 +9,7 @@ This file is the single source of truth for current project status. Updated afte
 | Phase | Name | Status |
 |---|---|---|
 | Phase 1 | Foundation | Complete |
-| Phase 2 | Infrastructure as Code | Not Started |
+| Phase 2 | Infrastructure as Code | Started |
 | Phase 3 | CI/CD Pipeline | Not Started |
 | Phase 4 | Kubernetes | Not Started |
 | Phase 5 | GitOps + Monitoring | Not Started |
@@ -24,8 +24,8 @@ This file is the single source of truth for current project status. Updated afte
 | 1 | Linux VM Setup | Provision Ubuntu Server VM on Unraid | Complete |
 | 2 | Docker & Compose | Install Docker, deploy first Compose service | Complete |
 | 3 | Git Repo Structure | Folder layout, README, .gitignore confirmed | Complete |
-| 4 | Terraform Base | VM infrastructure defined in Terraform | Not Started |
-| 5 | Remote State | Cloud backend configured for Terraform state | Not Started |
+| 4 | Terraform Base | VM infrastructure defined in Terraform | Complete |
+| 5 | Remote State | Cloud backend configured for Terraform state | Complete |
 | 6 | GitHub Actions | CI pipeline triggered on push to main | Not Started |
 | 7 | K8s Cluster | k3s or kubeadm cluster running on T340 | Not Started |
 | 8 | Ingress + TLS | Ingress with TLS via Cloudflare Tunnel | Not Started |
@@ -39,3 +39,4 @@ This file is the single source of truth for current project status. Updated afte
 ## Notes
 
 _Add session notes, blockers, or decisions here as the project progresses._
+2026-03-08 - Phase 2 complete. Terraform installed on hla1. S3 backend configured for remote state. EC2 t2.micro and security group provisioned via Terraform. All config committed to /terraform.
